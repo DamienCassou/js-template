@@ -9,6 +9,9 @@
   },
   "author": "Damien Cassou",
   "license": "GPL-3.0-or-later",
+  "scripts": {
+    "lint:js": "eslint ."
+  },
   "devDependencies": {
     "eslint": "^8.46.0",
     "eslint-config-prettier": "^8.9.0",
