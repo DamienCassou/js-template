@@ -4,13 +4,11 @@
   "description": "",
   "type": "module",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "Damien Cassou",
   "license": "GPL-3.0-or-later",
   "scripts": {
-    "lint:js": "eslint ."
+    "lint:js": "eslint .",
+    "test": "node --test"
   },
   "devDependencies": {
     "eslint": "^8.46.0",
